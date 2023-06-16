@@ -1,0 +1,16 @@
+steps:
+  # Docker Build the cointainer image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/taufiksatrianugraha/fruitarians-model/v2.0.0', '.']
+
+  # Docker push the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push',  'gcr.io/$PROJECT_ID/taufiksatrianugraha/fruitarians-model/v2.0.0']
+
+  # Deploy the container to Cloud Run
+  - name: 'google/cloud-builders/gcloud'
+    args: ['run', 'deploy', 'myservice', '--image', 'gcr.io/$PROJECT_ID/taufiksatrianugraha/fruitarians-model/v2.0.0', '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated']
+
+# Store images in Google Artifact Registry 
+images:
+  - gcr.io/$PROJECT_ID/taufiksatrianugraha/fruitarians-model/v2.0.0
