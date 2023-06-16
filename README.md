@@ -35,7 +35,7 @@ There are five technologies we use in the **Fruitarians** Machine Learning Opera
 
 ### FastAPI
 
-<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="120" height="100"/>
+<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="100"/>
 
 FastAPI can be used to deploy a machine learning model:
 - *Model Training*: Train your machine learning model using libraries like TensorFlow. This involves feeding the model with relevant data and optimizing it to make accurate predictions.
@@ -57,7 +57,7 @@ Docs: [fastapi-docs](https://fastapi.tiangolo.com/)
 
 ### Docker 
 
-<img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="100" height="50"/>
+<img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="100"/>
 
 The provided code is a Dockerfile, which is used to build a Docker image for the deployment of a machine learning model using FastAPI. Here's a brief explanation of the different sections in the Dockerfile:
 
@@ -86,7 +86,7 @@ Docs: [github-docs](https://docs.github.com/en)
 
 ### Google Cloud Build 
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs3WdMUSzoZGaJjfWjioiK8oQSNFuNUdlty1ocOgsceQ&s" width="150" height="150"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs3WdMUSzoZGaJjfWjioiK8oQSNFuNUdlty1ocOgsceQ&s" width="100"/>
 
 Google Cloud Build is a CI/CD management service provided by Google Cloud Platform. It is used to automate the process of building, testing, and deploying applications. In the given steps, Cloud Build is utilized to automate the deployment of a machine learning model to Google Cloud Run.
 
@@ -104,7 +104,7 @@ Docs: [cloud-build-docs](https://cloud.google.com/build/docs)
 
 ### Google Cloud Build 
 
-<img src="https://www.vectorlogo.zone/logos/google_cloud_run/google_cloud_run-ar21.svg" width="150" height="150"/>
+<img src="https://www.vectorlogo.zone/logos/google_cloud_run/google_cloud_run-ar21.svg" width="100"/>
 
 Google Cloud Run is a serverless compute service used to run containerized applications. In this implementation, Cloud Run is used to run a container that contains a machine learning model and an API endpoint. This allows for easy and scalable exposure of the model through an HTTP API.
 
