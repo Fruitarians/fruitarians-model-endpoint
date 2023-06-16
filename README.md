@@ -112,5 +112,10 @@ The service or endpoint name in this case is "fruitarians-model-endpoint". This 
 
 Docs: [cloud-run-docs](https://cloud.google.com/run/docs)
 
+# How to use
+You can try
+```YAML
+https://fruitarians-model-cwdelhrmna-et.a.run.app/docs/
+```
 
 CC23-4S448 ML Teams.
