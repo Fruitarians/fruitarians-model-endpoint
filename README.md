@@ -7,6 +7,3 @@ Technology Stack
 4. Google Cloud Build
 5. Google Cloud Run
 
-## FastAPI
-create file main.py for 
-
