@@ -5,7 +5,7 @@ _The machine learning technology used in Fruitarians for deployment_
 **Powered by:**
 
 <p style="text-align: center; background-color: #eee; display: inline-block; padding: 14px 20px; border-radius: 15px;">
-<img src="https://en.wikipedia.org/wiki/TensorFlow#/media/File:TensorFlow_logo.svg" width="250"/>
+<img src="https://en.wikipedia.org/wiki/TensorFlow/media/File:TensorFlow_logo.svg" width="250"/>
 </p>
 
 MLOps (Machine Learning Operations) combines the principles of CI/CD with machine learning workflows to establish a robust and automated pipeline for developing, deploying, and maintaining machine learning models. Here's how MLOps integrates with CI/CD:
