@@ -78,7 +78,7 @@ Docs:
 
 ### Github
 
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="100" height="50"/>
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="100"/>
 
 GitHub is utilized to create triggers in Google Cloud Build for deploying a machine learning model using CI/CD on Cloud Run. The repository at  **`https://github.com/Fruitarians/fruitarians-model-endpoint`** contains the necessary code and configuration files for the deployment process. With the triggers set up, any changes or updates made to the repository will automatically trigger the CI/CD pipeline in Google Cloud Build, which will build and deploy the model to Cloud Run based on the defined configuration. This integration allows for streamlined development, version control, and automated deployment of the machine learning model using the power of GitHub and Google Cloud technologies.
 
