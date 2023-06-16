@@ -9,8 +9,8 @@ steps:
 
   # Deploy the container to Cloud Run
   - name: 'google/cloud-builders/gcloud'
-    args: ['run', 'deploy', 'myservice', '--image', 'gcr.io/$PROJECT_ID/taufiksatrianugraha/fruitarians-model/v2.0.0', '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated']
+    args: ['run', 'deploy', 'fruitarians-model-endpoint', '--image', 'gcr.io/$PROJECT_ID/taufiksatrianugraha/fruitarians-model/v2.0.0', '--region', 'asia-southeast2', '--platform', 'managed', '--allow-unauthenticated']
 
-# Store images in Google Artifact Registry 
+# Store images 
 images:
   - gcr.io/$PROJECT_ID/taufiksatrianugraha/fruitarians-model/v2.0.0
