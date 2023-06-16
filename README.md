@@ -111,3 +111,6 @@ Google Cloud Run is a serverless compute service used to run containerized appli
 The service or endpoint name in this case is "fruitarians-model-endpoint". This is the name given to the deployed service on Cloud Run. It will expose the machine learning model and API through an HTTP endpoint, allowing external clients to make predictions or interact with the model.
 
 Docs: [cloud-run-docs](https://cloud.google.com/run/docs)
+
+
+CC23-4S448 ML Teams.
