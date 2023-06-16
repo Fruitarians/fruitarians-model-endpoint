@@ -104,7 +104,7 @@ Docs: [cloud-build-docs](https://cloud.google.com/build/docs)
 
 ### Google Cloud Build 
 
-<img src="https://www.vectorlogo.zone/logos/google_cloud_run/google_cloud_run-ar21.svg" width="100"/>
+<img src="https://static-00.iconduck.com/assets.00/google-cloud-run-icon-512x460-knkc4eyx.png" width="100"/>
 
 Google Cloud Run is a serverless compute service used to run containerized applications. In this implementation, Cloud Run is used to run a container that contains a machine learning model and an API endpoint. This allows for easy and scalable exposure of the model through an HTTP API.
 
