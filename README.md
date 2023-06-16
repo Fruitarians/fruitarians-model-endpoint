@@ -115,7 +115,7 @@ Docs: [cloud-run-docs](https://cloud.google.com/run/docs)
 # How to use
 You can try
 ```YAML
-https://fruitarians-model-cwdelhrmna-et.a.run.app/docs/
+https://fruitarians-model-endpoint-cwdelhrmna-et.a.run.app/docs/
 ```
 
 CC23-4S448 ML Teams.
